@@ -1,0 +1,54 @@
+/* Sets height and width to size of face background, centers element, and centers bolded text */
+.Face {
+    height: 720px;
+    width: 520px;
+    margin: 0 auto;
+    background-image: url("../../assets/FaceOutline.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.Hair {
+    position: relative;
+    width: 500px;
+    height: 315px;
+    left: 15px;
+    bottom: 10px;
+    z-index: 1;
+}
+
+.Eyes {
+    position: relative;
+    width: 315px;
+    height: 125px;
+    left: 100px;
+    bottom: 120px;
+    
+}
+
+.Nose {
+    position: relative;
+    width: 125px;
+    height: 125px;
+    right: 120px;
+}
+
+.Mouth {
+    position: relative;
+    width: 200px;
+    height: 90px;
+    left: 157px;
+}
+
+/* Media queries */
+ /* @media screen and (max-width: 500px), (max-height: 500px) {
+    .Face {
+        width: 260px;
+        height: 360px;
+    }
+
+    .Hair {
+        width: 250px;
+        height: 157px;
+    }
+}  */
